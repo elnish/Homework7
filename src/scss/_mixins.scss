@@ -1,0 +1,12 @@
+//Mixins
+@mixin display-flex($direction) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: $direction;
+}
+
+// @mixin flex-grid($cols, $mrg) {
+//     margin-right: $mrg;;
+//     margin-bottom: $mrg;
+//     width: (100% / $cols - $mrg);
+// }
